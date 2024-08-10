@@ -809,11 +809,6 @@ button.dropDownButtonActive{
     grid-template-rows: 1fr 1fr;
   }
 
-  /* .projectMainScreen {
-    font-size: 15rem;
-    margin-bottom: 4.5rem;
-} */
-
 .grid1_2Con{
   grid-template-columns: auto;
 }
