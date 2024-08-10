@@ -15,7 +15,6 @@ const HomePage = () => {
   const [t, i18n] = useTranslation("global");
   const firstThreeProjects = projectsData.slice(0, 3);
   const baseTranslation = "home.";
-
   useEffect(() => {
     start();
   }, []); // Empty array means this runs once after initial render
@@ -26,7 +25,7 @@ const HomePage = () => {
       <section className='projectMainScreen limitWidth'>
         <div className='have-scroll-animation aniType-MoveRightToLeft'>
           <h1 className='withSecondarytext relativeCon'>
-            <img src="./public/img/General/shapeTriangle.svg" className='backShape customPositionX  animationPro_LoopInfinite floatAnimation' id="shapeProp1" alt="" style={{ '--customPosition':'-40px'}} />
+            <img src="./img/General/shapeTriangle.svg" className='backShape customPositionX  animationPro_LoopInfinite floatAnimation' id="shapeProp1" alt="" style={{ '--customPosition':'-40px'}} />
             <span className='titleLine'>
               <FontAwesomeIcon icon={faHandPeace} />
               {HtmlParser(t(`${baseTranslation}title`))}
@@ -39,10 +38,10 @@ const HomePage = () => {
           <Link to={'Category'} className="button">{t(`${baseTranslation}exploreAllProjectButton`)}</Link>
         </div>
         <div className='welcomImg  have-scroll-animation aniType-MoveLeftToRight'>
-          <img src="./public/img/General/WelcomeImg.png" alt=""></img>
+          <img src="./img/General/WelcomeImg.png" alt=""></img>
         </div>
 
-        <img src="./public/img/General/shapeTriangle.svg" alt='' className='backShape customPositionX reverse animationPro_LoopInfinite floatAnimation' id="shapeProp2" style={{ '--customPosition':'-40px',  '--animationName':'floatUpDownV2'}}></img>
+        <img src="./img/General/shapeTriangle.svg" alt='' className='backShape customPositionX reverse animationPro_LoopInfinite floatAnimation' id="shapeProp2" style={{ '--customPosition':'-40px',  '--animationName':'floatUpDownV2'}}></img>
       </section>
 
       <section className='limitWidth'>

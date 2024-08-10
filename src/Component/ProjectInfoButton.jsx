@@ -11,7 +11,7 @@ const ProjectInfoButton = ({ generalName, newStyle, newClass}) => {
     const baseProject = `pojects.${generalName}`;
     const linkSrc = `/project/${generalName}`;
     const data = projectsData.find((project) => project.GeneralName == generalName);
-    const publicImgBase = "./public/img/";
+    const publicImgBase = "./img/";
     const publicImgProject = publicImgBase + "Projects/" + data.GeneralName + "/";
 
     useEffect(() => {

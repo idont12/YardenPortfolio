@@ -21,7 +21,7 @@ const NextProject = ({ generalName, newClass}) => {
     const baseProject = `pojects.${nextProjectName}`;
     const linkSrc = `/project/${nextProjectName}`;
     const data = projectsData.find((project) => project.GeneralName == nextProjectName);
-    const publicImgBase = "../public/img/";
+    const publicImgBase = "./img/";
     const publicImgProject = publicImgBase + "Projects/" + data.GeneralName + "/";
 
     const location = useLocation();
