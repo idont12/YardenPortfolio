@@ -23,10 +23,7 @@ const router = createBrowserRouter(
       <Route path="/category" element={<Category/>} />
       <Route path="*" element={<NotFoundPage/>} />
     </Route>
-),
-{
-  basename: '/YardenPortfolio',
-}
+)
 );
 
 const App = () => {
