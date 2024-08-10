@@ -14,7 +14,7 @@ const CategoryInfoButton = ({allCategories, keyName, newStyle, newClass}) => {
     const baseProject = `home.TopicToDisplay.${keyName}`;
     const linkSrc = `/category/?categories=${allCategories}`;
 
-    const publicImgBase = "../public/img/";
+    const publicImgBase = "./public/img/";
     const publicImgProject =`${publicImgBase}General/CategoryGroups/${keyName}.jpg`;
 
     useEffect(() => {
