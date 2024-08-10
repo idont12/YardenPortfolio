@@ -877,4 +877,13 @@ grid-template-rows: 1fr 1fr 1fr;
   font-size: 50vw;
   margin-bottom: 20vw;
 }
+
+.stickyButtomBanner{
+  padding-right: 0.9em;
+  padding-left: 0.9em;
+}
+
+.stickyButtomBanner h1.withSecondarytext {
+  flex-direction: column;
+}
 }
