@@ -9,7 +9,7 @@ import TagCategory from '../Component/TagCategory';
 import NextProject from '../Component/NextProject.jsx';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faClock, faHammer, faLocationDot, faFlag, faChildren, faLightbulb, faWeightHanging, faPaw, faStarOfDavid, faBolt, faPeopleGroup} from '@fortawesome/free-solid-svg-icons';
+import { faClock, faHammer, faLocationDot, faFlag, faChildren, faLightbulb, faWeightHanging, faPaw, faStarOfDavid, faBolt, faPeopleGroup, faChevronDown} from '@fortawesome/free-solid-svg-icons';
 import { faHandPeace } from '@fortawesome/free-regular-svg-icons';
 
 import start from '../Js/ElementAnimationOnScroll.js'
@@ -81,7 +81,7 @@ const Projects = () => {
                 :
                 null
               }
-             
+               <FontAwesomeIcon className='CenterIcon' icon={faChevronDown}/>
             </div>
             <div className='demoScreen'>
               <img src={publicImgProject + data.MainScreenExample} alt=""></img>

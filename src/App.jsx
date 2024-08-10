@@ -26,7 +26,7 @@ const router = createBrowserRouter(
     </Route>
 ),
 {
-  basename: '/YardenPortfolio',
+  basename: '/YardenPortfolio/',
 }
 );
 

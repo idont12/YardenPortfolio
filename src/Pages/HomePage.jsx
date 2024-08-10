@@ -8,6 +8,7 @@ import CategoryInfoButton from '../Component/CategotysInfoButton'
 
 import projectsData from '../data/Projects.json'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import{faChevronDown} from '@fortawesome/free-solid-svg-icons'
 import { faHandPeace } from '@fortawesome/free-regular-svg-icons';
 
 import start from '../Js/ElementAnimationOnScroll.js'
@@ -36,6 +37,8 @@ const HomePage = () => {
 
           <p>{HtmlParser(t(`${baseTranslation}description`))}</p>
           <Link to={'Category'} className="button">{t(`${baseTranslation}exploreAllProjectButton`)}</Link>
+
+          <FontAwesomeIcon className='CenterIcon' icon={faChevronDown}/>
         </div>
         <div className='welcomImg  have-scroll-animation aniType-MoveLeftToRight'>
           <img src="./img/General/WelcomeImg.png" alt=""></img>

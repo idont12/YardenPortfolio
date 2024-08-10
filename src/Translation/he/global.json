@@ -4,14 +4,14 @@
     },
     "header":{
         "homeButton":"דף הבית",
-        "allProject":"כל הפרוייקטים"
+        "allProject":"כל הפרויקטים"
     },
     "home":{
         "title":"הי אני <span class='purpleText titleLine'>ירדן</span>",
         "superShotDescription": "",
         "description": "אני אוהב לייצר חוויות אינטרקטיביות, מגניבות ומגוונות 🤩<br/><br/> יש לי תואר ראשון בטכנולוגיות למידה.<br/>אוהב ללמוד כל הזמן דברים חדשים.<br/> אם אתם מחפשים עובד סקרן, בעל מוטיבציה, שאוהב ללמוד דברים חדשים אז מצאתם את האדם המתאים.",
         "exploreAllProjectButton":"צפייה בפרויקטים",
-        "Projects":"פרוייקטים נבחרים",
+        "Projects":"פרויקטים נבחרים",
         "projectByTopic":"מה אני עושה?",
         "TopicToDisplay":{
             "webDevelopment":"בנית<br>אתרים",
@@ -28,11 +28,11 @@
     },
     "projectPage":{
         "_comment?!":"need to add to the english json",
-        "chackProject_Button":"צפו בפרוייקט", 
+        "chackProject_Button":"צפו בפרויקט", 
         "role_Title":"תפקיד" ,
         "duration_Title":"זמן",
         "framework_Title":"מסגרת",
-        "projectGoal_Title":"מטרת הפרוייקט",
+        "projectGoal_Title":"מטרת הפרויקט",
         "targetAudience_Title":"קהל היעד",
         "challenges_Title":"אתגרים",
         "solutions_Title":"דרכי התמודדות"
@@ -72,7 +72,7 @@
         },
         "video_edit": {
             "title": "עריכת ווידאו",
-            "description": "אני מתעסק בעריכת ווידאו כ-9 שנים, ערכתי פרוייקטים שונים סרטונים עלילתים, דוקו, לרשתות חברתיות ועוד..."
+            "description": "אני מתעסק בעריכת ווידאו כ-9 שנים, ערכתי פרויקטים שונים סרטונים עלילתים, דוקו, לרשתות חברתיות ועוד..."
         },
         "animation": {
             "title": "הנפשה",
@@ -95,7 +95,7 @@
             "description":"משחק לימודי חוויתי בו הדמות שלכם צריכה להשתחרר ממכונת ריקודים. תוכלו ליצור משחקונים מותאמים אישית עם שאלות משלכם או לשחק במשחקים שאחרים יצרו. ניתן לשחק עם מקשי המקלדת או עם שטיח ריקוד אם לא זרקתם את שלכם עוד 😜",
             "role":"מתכנת, מאפיין, מעצב ואנימטור<br/>(עבודה בקבוצה)",
             "duration":"נובמבר 2023<br/>(9 חודשים)",
-            "framework":"פרוייקט סיום שנה ב'<br/>בתואר ראשון",
+            "framework":"פרויקט סיום שנה ב'<br/>בתואר ראשון",
             "projectGoal":"יצירת חווית לימוד כיפית, הכולל ממשק נוח ליצירת משחקונים מותאמים אישית.",
             "targetAudience":"תלמידי יסודי וחטיבה עם אוריינות טכנולוגית בסיסית ומורים ברמות טכנולוגיות שונות.",
             "TheProgress":[
@@ -130,7 +130,7 @@
             "description":"אתר רספונסיבי ליצירת חידונים מותאמים אישית על כלבים. עליכם לבחור סוג כלב, נושא ורמת קושי ובלחיצת כפתור תקבלו שאלון מותאם אישית, בעל 5 שאלות. <span class='note'>האתר כרגע מנותק ממודל ה-AI וכולל 6 דוגמאות מגוונות לבחינה עצמית. <span/>",
             "role":"מתכנת ומאפיין<br/>(עבודה בקבוצה)",
             "duration":"מרץ 2024<br/>(חודש)",
-            "framework":"פרוייקט סיום בקורס תכנות מתקדם<br/>בתואר ראשון",
+            "framework":"פרויקט סיום בקורס תכנות מתקדם<br/>בתואר ראשון",
             "projectGoal":"יצירת אתר רספונסיבי ובחינת היכולות שלנו לייצר תוצר המבוסס על מודל שפה בצורה אמינה וגמישה ככל הניתן.",
             "targetAudience":"אנשים בגילאי 6+ שאוהבים כלבים ורוצים ללמוד עליהם ולבחון את הידע שלהם בצורה חוויתית ושונה.",
             "TheProgress":[
@@ -175,7 +175,7 @@
                 {
                     "title":"הדרך חזרה ארוכה ומשעממת",
                     "problem":"אם יצא לכם לשחק במשחק יש מצב שהרגשתם את זה... כאשר עשיתי טסטים ביום ההגשה שמתי לב, שסוף המשחק, בו השחקן צריך לחזור אל תחנת האוטובוס, משמעמם ולא כיפי לשחקנים.",
-                    "solution":"ניסיתי לעשות מספר נסיונות אבל אלו יצרו בעיות ובאגים מוזרים. בסוף החלטתי להשאיר את המצב כמו שהוא - עדיף פרוייקט גמור מאשר לא להגיש בכלל.",
+                    "solution":"ניסיתי לעשות מספר נסיונות אבל אלו יצרו בעיות ובאגים מוזרים. בסוף החלטתי להשאיר את המצב כמו שהוא - עדיף פרויקט גמור מאשר לא להגיש בכלל.",
                     "imgDescription":["מציאת הדמות ביל המוחבאת במשחק"]
                 }
             ],
@@ -188,9 +188,9 @@
             "description":"משחק לימודי שמתחלק לשני שיעורים, כל שיעור מכיל משחק קבוצתי ומשחק מסכם כיתתי. השחקנים לאורך המשחק ידברו עם דמויות היסטוריות, יפתרו חידות, יאספו מדליות וישחקו במשחקונים תוך כדי צבירת ניקוד ויתחרו עם חבריהם לכיתה.<span class='note'>הפרויקט עדיין בבניה ולכן לא ניתן לגשת אליו</span>",
             "role":"מתכנת, מאפיין, מעצב, אנימטור <br>(עבודה בצוות)",
             "duration":"מרץ 2024<br/>(בעבודה)",
-            "framework":"פרוייקט גמר<br>תואר ראשון",
+            "framework":"פרויקט גמר<br>תואר ראשון",
             "projectGoal":"מטרת הפרויקט להנגיש את נושא המכביה עבור ילדים וליצור היכרות והתלהבות לנושא לפני אירוע המכביה ב-2025.",
-            "targetAudience":"הפרוייקט מיועד לתלמידים ומורים בכיתות ה' עד ט'.",
+            "targetAudience":"הפרויקט מיועד לתלמידים ומורים בכיתות ה' עד ט'.",
             "TheProgress":[
                 {
                     "title":"איך עושים משחק כיפי?",
@@ -217,7 +217,7 @@
         "Stratasys":{
             "title":"אתר לסטראטאסיס",
             "superShotDescription":"פורטל ידע",
-            "description":"פורטל ידע שמאגד בתוכו את מידע הדרוש לביצוע השגרות הניהוליות המצופות לביצוע ממנהלים בחברת  Stratasys. הפורטל יוצר סטנדרט בתפעול השגרות בכלל החברה, מאפשר חיפוש קל, שמירה ועריכה של תבניות בשביל התאמה אישית של התהליכים לדרישות המנהל הספציפי.<span class='note'>אין קישור לתוצר משום שלצורך הפרוייקט לא נבנה פרוטוטייפ</span>",
+            "description":"פורטל ידע שמאגד בתוכו את מידע הדרוש לביצוע השגרות הניהוליות המצופות לביצוע ממנהלים בחברת  Stratasys. הפורטל יוצר סטנדרט בתפעול השגרות בכלל החברה, מאפשר חיפוש קל, שמירה ועריכה של תבניות בשביל התאמה אישית של התהליכים לדרישות המנהל הספציפי.<span class='note'>אין קישור לתוצר משום שלצורך הפרויקט לא נבנה פרוטוטייפ</span>",
             "role":"מאפיין, מעצב ומפתח הדרכה<br>(עבודה בצוות)",
             "duration":"ינואר 2024<br>(4 חודשים)",
             "framework":"קורס פיתוח הדרכה<br>בתואר ראשון",
@@ -254,7 +254,7 @@
                     "title":"למה אנחנו?",
                     "problem":"הנושא של עמידה מפני קהל הוא נושא ענקי ומאות ואלפי אנשים דיברו וידברו עליו בעתיד אחד הדברים הראשונים שהיינו צריכים להחליט זה מה הייחוד שלנו? מה לנו יש להגיד או להציג בנושא שאחרים לא יכולים.",
                     "solution":" בפועל אף אחד מאיתנו לא גאון פרזנטציות ומכאן גם מגיע הכוח שלנו. בנינו את זה כסטודנטים עבור סטודנטים ואנשים במצבי חיים דומים לשלנו ולכן אנחנו יכולים ללמד את הדברים בגובה העיינים.",
-                    "imgDescription":["הצוות מאחורי הפרוייקט"]
+                    "imgDescription":["הצוות מאחורי הפרויקט"]
                 },
                 {
                     "title":"איך בונים בפועל?",
