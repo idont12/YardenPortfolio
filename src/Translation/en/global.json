@@ -1,0 +1,331 @@
+{
+    "General":{
+        "cssRightOrLeft":"left"
+    },
+    "header":{
+        "homeButton":"Home",
+        "allProject":"All Projects"
+    },
+    "home":{
+        "title":"Hi, I’m <span class='purpleText titleLine'>Yarden</span>",
+        "superShotDescription": "",
+        "description": "I love creating interactive, cool, and uniqe experiences 🤩<br/><br/>I hold a Bachelor's degree in Instructional Technologies and am constantly learning new things.<br/> If you’re looking for a curious, motivated person who loves to learn, you’ve found the right match.",
+        "exploreAllProjectButton":"View Projects",
+        "Projects":"Recommendations",
+        "projectByTopic": "What Do I Do?",
+        "TopicToDisplay": {
+            "webDevelopment": "Web<br>Development",
+            "webDesign": "UI/UX<br>Design",
+            "gameDevelopment": "Game<br>Development"
+        }
+    },
+    "footer":{
+        "linkinButton": "LinkedIn",
+        "instegramButton": "Instagram",
+        "mailButton": "Send Email",
+        "creditText": "© Yarden Zilberman 2024",
+        "connectWithMe": "Want to talk? Let’s go!"
+    },
+    "projectPage":{
+        "chackProject_Button": "View Project",
+        "role_Title": "Role",
+        "duration_Title": "Duration",
+        "framework_Title": "Context",
+        "projectGoal_Title": "Project Goal",
+        "targetAudience_Title": "Target Audience",
+        "challenges_Title": "Challenges",
+        "solutions_Title": "Solutions"
+    },
+    "category":{
+        "html": {
+            "title": "HTML",
+            "description": "I enjoy developing interactive websites that bring smiles to users and offer added value."
+        },
+        "unity": {
+            "title": "Unity",
+            "description": "I've been involved in game development since 7th grade and use various platforms."
+        },
+        "css": {
+            "title": "CSS",
+            "description": "I love experimenting and constantly learning more in this field."
+        },
+        "c#": {
+            "title": "C#",
+            "description": "I use this language for web development in Blazor and programming in the Unity platform."
+        },
+        "ux": {
+            "title": "UX",
+            "description": "I love designing and thinking about how to create everything in the most intuitive, engaging, and innovative way for users is an amazing challenge."
+        },
+        "ui": {
+            "title": "UI",
+            "description": ""
+        },
+        "gpt_api": {
+            "title": "GPT API",
+            "description": "I always love exploring how things can be played with, changed, and improved using new tools, including language models, which have taken over our lives."
+        },
+        "js": {
+            "title": "JS",
+            "description": "I love using JS to create cool games and interactions for websites."
+        },
+        "video_edit": {
+            "title": "Video Editing",
+            "description": "I’ve been editing videos for about 9 years, working on various projects including narrative films, documentaries, and social media content."
+        },
+        "animation": {
+            "title": "Animation",
+            "description": "I have 6 years of experience in the field, using tools like Animate, Blender, and OpenToonz."
+        },
+        "tutorial": {
+            "title": "Learning Module",
+            "description": ""
+        },
+        "figma":{
+            "title": "Figma",
+            "description": ""
+        }
+    }
+    ,
+    "pojects":{
+        "DanceItOut":{
+            "title":"Dance It Out",
+            "superShotDescription": "Game Generator",
+            "description": "An educational and interactive game where your character needs to escape from a dance machine. You can create custom minigames with your own questions or play games created by others. You can play with keyboard keys or a dance mat if you haven’t thrown yours away yet 😜",
+            "role": "Programmer, UX & UI Designer, Animator<br/>(Teamwork)",
+            "duration": "November 2023<br/>(9 months)",
+            "framework": "Year 2 Final Project<br/>Bachelor’s Degree",
+            "projectGoal": "To create a fun learning experience with an easy-to-use interface for creating custom minigames.",
+            "targetAudience": "Elementary and middle school students with basic technological literacy, and teachers of various ages and tech levels.",
+            "TheProgress":[
+                {
+                    "title":"What Are We Making?",
+                    "problem":"After deciding the game's story (a kid stuck in a dance machine), we debated about the game macanic between a multiple-choice game or a matching game.",
+                    "solution":"To decide, each of us presented our preferred macanic, and after discussion, we chose the multiple-choice game. The main reason was that it’s a simple game mechanism, allowing us to focus on the finer details.",
+                    "imgDescription":[]
+                },
+                {
+                    "title": "How to Make a Fun Game?",
+                    "problem": "Multiple-choice games are the most common type in educational games, so students are often less excited about them. We needed to find a way to make the game unique and create a fun experience that the learner would remember.",
+                    "solution": "We had a team discussion to identify elements that give us the ‘wow’ feeling. In the end, we decided to add an exciting story, diverse feedback, and various animations. Spoiler: the players loved it.",
+                    "imgDescription": ["Example of positive feedback in the game"]
+                },
+                {
+                    "title": "The Game Is Hard to Operate",
+                    "problem": "When players tried the initial demo, they found it difficult to understand how to operate the game. After discussing with them, we realized that the arrangement of the answers on the screen didn’t match the keyboard key placements.",
+                    "solution": "To solve this, we tried various ideas like changing the order of elements and highlighting the arrow representing each answer, but eventually, we added a tutorial stage before the game starts. After this change, we saw a significant improvement in players’ understanding and enjoyment of the game.",
+                    "imgDescription": []
+                }
+            ],
+            "presentProjectDescription":[
+                "Screenshot from the game's intro video",
+                "Custom question creation screen"  
+            ],
+            "IframeText":""
+        },
+        "DogyQuiz":{
+           "title": "Dogy Quiz",
+            "superShotDescription": "AI-based Quiz",
+            "description": "A responsive website for creating personalized quizzes about dogs. Choose a dog breed, topic, and difficulty level, and with one click, you'll get a custom quiz with 5 questions. <span class='note'>Currently, the site is disconnected from the AI model and includes 6 examples. <span/>",
+            "role": "Programmer and UX Designer<br/>(Teamwork)",
+            "duration": "Match 2024<br/>(1 month)",
+            "framework": "Final Project in Advanced Programming Course<br/>Bachelor’s Degree",
+            "projectGoal": "To create a responsive website and test our ability to produce a product based on a language model in a reliable and flexible way.",
+            "targetAudience": "People aged 6+ who love dogs and want to learn about them and test their knowledge in a fun and different way.",
+            "TheProgress": [
+                {
+                    "title": "Working with AI",
+                    "problem": "Language models work by receiving written text and trying to continue it in the optimal way. Therefore, it’s difficult to predict how the model will provide feedback, especially since this content needs to be processed into a quiz where the format must be consistent and not vary between prompts.",
+                    "solution": "To overcome this, we researched various rules and methods for creating prompts, adjusted different parameters in the model call, and experimented with different formulations until we reached a balanced and stable result.",
+                    "imgDescription":["Correct answer response"]
+                },
+                {
+                    "title": "Designing the Intro Screen",
+                    "problem": "At the start of using the site, we want to explain to the user what the site is about and also allow them to choose the criteria for the quiz they want to take. We debated how to present all this information without overwhelming the user, making it suitable for both desktop and mobile.",
+                    "solution": "First, we started by designing for mobile and then expanded the design for desktop. This way, the amount of content that serves as our base would be suitable for the smallest platform, making it easier to expand rather than shorten the information. We also experimented with different layouts until we found one that allowed us to include all the information without overwhelming the user. This was achieved by integrating the information into labels and buttons.",
+                    "imgDescription": ["Initial wireframe of the intro screen layout"]
+                }
+            ],
+            "presentProjectDescription": ["Responsive game summary screen"],
+            "IframeText": "Demo Video"
+        },
+        "GoddaGo": {
+            "title": "Godda Go",
+            "superShotDescription": "Point and Click Game",
+            "description": "An online game for both computers and phones where you play as a god. Your job is to help a character get a bus ticket by communicating with them only through lightning. <br/> Playtime around 10 minutes.",
+            "role": "Programmer, Designer, Animator<br/>(Solo)",
+            "duration": "October 2023<br/>(4 days)",
+            "framework": "Made for the 'No Word Jam' competition",
+            "projectGoal": "To prove to myself that I can create a short game in less than a week without using any words.",
+            "targetAudience": "This game is for anyone who loves video games and wants to play something light and fun.",
+            "TheProgress": [
+                {
+                    "title": "No Words Allowed",
+                    "problem": "The game was made for the 'No Word Jam,' where the main rule was to create a game that doesn't use any words to explain how to play or tell the story.",
+                    "solution": "To tackle this, I started by brainstorming ideas with the simplest controls possible, making them versatile so I wouldn’t need to teach many mechanics. I remembered the point and click games I used to play as a kid and thought it would be cool to make a game where the click is always the same, but the effect changes based on where you click.",
+                    "imgDescription": ["Animation of a cat bus running"]
+                },
+                {
+                    "title": "Scope Creep Challenge",
+                    "problem": "The original plan included three stages where the player would do simple daily tasks (getting on the bus, buying groceries, and making an omelette). But as you can guess, that scope is a bit too big for a game made solo in less than a week...",
+                    "solution": "When I realized the scope was too large, I broke down the work I’d done so far into categories (main character design, backgrounds, NPC design, core functionality coding, etc.) to see the game's actual status and where I could cut corners. In the end, I decided to keep only the bus stage and made it longer by adding multiple ways (4, to be exact) to solve it, with the game getting harder each time.",
+                    "imgDescription": []
+                },
+                {
+                    "title": "The Long, Boring Way Back",
+                    "problem": "If you played the game, you might have noticed this, but when I did tests on the submission day, I saw that the part where the player has to walk back to the bus station was pretty boring and not fun.",
+                    "solution": "Unfortunately, I couldn’t fix this in time, but I did try a few things, like speeding up the character on the way back or removing stops at every screen, but those caused other problems and weird bugs. In the end, it's better to submit a finished project than nothing at all.",
+                    "imgDescription": ["Finding the hidden character 'Bill' in the game"]
+                }
+            ],
+            "presentProjectDescription": ["A stage from the game", "The final stage - breaking a door with lightning"],
+            "IframeText": ""
+        },
+        "MaccabiahOnTime": {
+            "title": "Maccabiah On Time",
+            "superShotDescription": "Educational Game",
+            "description": "An educational game split into two lessons. Each lesson has a group game and a class-wide final game. Throughout the game, players will talk to historical figures, solve puzzles, collect medals, and play mini-games while earning points and competing with their classmates. <span class='note'>This project is not yet finished, so it’s not available yet.</span>",
+            "role": "Programmer, UX & UI Designer, and Animator <br>(Teamwork)",
+            "duration": "March 2024<br/>(In progress)",
+            "framework": "Final project<br>Bachelor's degree",
+            "projectGoal": "To make the Maccabiah event exciting and engaging for kids before the 2025 event.",
+            "targetAudience": "This project is for teachers and students in grades 5 to 9.",
+            "TheProgress": [
+                {
+                    "title": "How to Make a Game Fun?",
+                    "problem": "One of the toughest challenges we faced was how to take a somewhat boring topic full of historical facts and turn it into a cool product that kids would actually want to play.",
+                    "solution": "Before development, we did some research on how different games ensure that learning is fun and keeps players coming back. We decided to use an exciting story, varied interactions, and competition to make the game engaging.",
+                    "imgDescription": ["Matching mini-game"]
+                },
+                {
+                    "title": "Which Feedback to Take?",
+                    "problem": "During development, we gave the product to students and teachers for feedback. Sometimes the feedback was positive, and sometimes it required us to make changes. One of the challenges was balancing listening to feedback while still meeting our goals and deadlines.",
+                    "solution": "We created a document to track all the feedback and then filtered it, focusing on recurring issues or important suggestions. We looked for solutions that could address multiple problems or wouldn’t cause new issues.",
+                    "imgDescription": []
+                },
+                {
+                    "title": "How Many Animations?",
+                    "problem": "One of the things we decided early on was that the product would be full of small animations. I love animations, and I believe they make a game feel 'wow' when players see them throughout the game. But creating animations takes time, and building a game from scratch makes it challenging to do everything.",
+                    "solution": "To solve this, we did a few things. For in-game animations, we built them directly in the game engine so that different elements could easily share the same animations. For the opening and closing videos, we ranked all the shots and decided where detailed animation was crucial and where sound effects or simple effects would do the job.",
+                    "imgDescription": ["Shot from the game's opening video"]
+                }
+            ],
+            "presentProjectDescription": ["Teacher interface of the game", "Shot of the game room"],
+            "IframeText": ""
+        },
+        "Stratasys": {
+        "title": "Stratasys Portal",
+        "superShotDescription": "Knowledge Portal",
+        "description": "A knowledge portal that gathers all the information needed to perform the expected managerial routines at Stratasys. The portal standardizes these routines across the company, allows easy search, saving, and editing of templates to customize processes to the specific manager's needs. <span class='note'>There’s no link to the product as no prototype was built for this project.</span>",
+        "role": "Instructional, UX & UI designer <br>(Teamwork)",
+        "duration": "January 2024<br/>(4 months)",
+        "framework": "Instructional design course<br>Bachelor's degree",
+        "projectGoal": "To tackle a real organizational problem at Stratasys by researching it, finding a solution, and designing it.",
+        "targetAudience": "Managers from all over the world at Stratasys.",
+        "TheProgress": [
+            {
+                "title": "What’s the Organization’s Problem?",
+                "problem": "Managers at the company need to perform various tasks and processes like onboarding new employees, giving feedback, and more. The problem was that the information needed for these processes wasn’t centralized, leading to delays in what should be quick and easy tasks.",
+                "solution": "We suggested creating an English knowledge portal, specifically for managers, built on templates and divided according to the six stages of the 'Employee Lifecycle' (Attracting, Recruitment, Onboarding, Retention, Development, and Exit).",
+                "imgDescription": ["Designed screens of the product"]
+            },
+            {
+                "title": "How Will It Work?",
+                "problem": "One challenge we faced was designing the portal to be easy to search and use, despite having so many different templates.",
+                "solution": "Managers can search templates in a free-text search box, and popular templates will be displayed on the homepage under the 'Popular' category, saving time if they’re looking for something common. Managers can save templates they find useful under 'Saved Template' for quick access if they need them again.",
+                "imgDescription": ["Screen design for the product"]
+            }
+        ],
+        "presentProjectDescription": ["Searching for a template in the portal"],
+        "IframeText": ""
+        },
+        "TheWholeWorldIsOnStage":{
+            "title":"The Whole World Is a Stage",
+            "superShotDescription":"Mini MOOC",
+            "description":"A short digital course teaching the basics of public speaking. The course has two parts: one on writing presentations and the other on delivering them. The course uses videos, interactive pages, forums, and more to teach you in the most fun way possible. <span class='note'>This product was made for Moodle, and the version you see here is a static copy, so you can’t submit assignments or participate in forums.</span>",
+            "role":"Production and Implementation<br>(Teamwork)",
+            "duration":"March 2023<br/>(4 months)",
+            "framework":"E-learning course<br>Bachelor's degree",
+            "projectGoal":"Creating a short MOOC (short online course) on public speaking.",
+            "targetAudience":"Teens, students and employees who want to improve their ability to stand in front of an audience.",
+            "TheProgress":[
+                {
+                    "title":"Why Us?",
+                    "problem":"The topic of public speaking is huge, with countless people discussing it now and in the future. One of the first things we had to decide was what makes us unique? What can we say or show about this topic that others can't?",
+                    "solution":"The truth is, none of us are presentation geniuses, and that's where our strength lies. We built this as students, for students, and for people in similar life situations, so we know how to speak in the same language as the audience.",
+                    "imgDescription":["The team behind the project"]
+                },
+                {
+                    "title":"How Did We Build It?",
+                    "problem":"My main role on the team was building the MOOC on the Moodle platform. I wanted to use HTML, but I was the only one on the team comfortable with it, which made it harder for others to help me.",
+                    "solution":"At first, I tried building everything in HTML, but with limited time and the need for others to easily pitch in, we decided to switch to Genially. We still used HTML+JS for the interactive elements that were tricky to do on the platform.",
+                    "imgDescription":[]
+                },
+                {
+                    "title":"Cool Features",
+                    "problem":"One of the most important things for me was to occasionally integrate unique and interesting elements into the course, giving learners a fresh perspective and helping them grasp the material on a deeper level.",
+                    "solution":"You can see an example of this in the feature I created under the topic 'Tools and Techniques - Voice.' This feature lets the learner move the comma in a sentence like 'Everything will be okay in the end, you'll see,' and see how it completely changes how we understand and hear the sentence. This was built with JS and added above the existing content.",
+                    "imgDescription":["A voice space repositioning component"]
+                }
+            ],
+            "presentProjectDescription":["Sample screen from the project","Topic outline for the first part"],
+             "IframeText":""
+        },
+        "ItsLogicalToSucceed":{
+            "title":"It's Logical to Succeed",
+            "superShotDescription":"Learning Module",
+            "description":"A learning module that teaches the basics of propositional logic. It takes you from the fundamentals to the point where you can solve logic puzzles on your own. The module should take about 10 to 15 minutes.",
+            "role":"UX & UI Designer and Implements Module<br/>(Teamwork)",
+            "duration":"October 2023<br>(9 months)",
+            "framework":"'Developing Digital Learning Units' course<br>Bachelor's degree",
+            "projectGoal":"To develop and produce a learning module on propositional logic.",
+            "targetAudience":"Students who need to learn about propositional logic.",
+            "TheProgress":[
+                {
+                    "title":"How to Teach in a Fun Way?",
+                    "problem":"Propositional logic can be a pretty heavy topic, and it took us some time to figure out how to make the material accessible so that anyone, even without prior knowledge, could take the module and understand it in a way that’s engaging and enjoyable.",
+                    "solution":"We tackled this with a few key elements, the main ones being design and interactivity. The module’s design is very light and informal, aiming to ease the formal pressure of academic content. We made sure to include a variety of creative and interactive elements to make the learning experience fun, refreshing, and as intuitive as possible.",
+                    "imgDescription":["Drag and drop interaction"]
+                }
+            ],
+            "presentProjectDescription":["Screen presents different operators","Opening screen with an explanation of the storyline"],
+             "IframeText":""
+        },
+        "Temp":{
+            "title":"",
+            "superShotDescription":"",
+            "description":"",
+            "role":"",
+            "duration":"",
+            "framework":"",
+            "projectGoal":"",
+            "targetAudience":"",
+            "TheProgress":[
+                {
+                    "title":"",
+                    "problem":"",
+                    "solution":"",
+                    "imgDescription":[""]
+                }
+            ],
+            "presentProjectDescription":[""],
+             "IframeText":""
+        }
+    },
+    "tags":{
+        "readMore":"Read More >"
+    },
+    "categoryPage":{
+        "reasteSertch":"Reset Filter",
+        "noCategoryTitle":"All Projects",
+        "filter":"Filter"
+    },
+    "nextProjectComp":{
+        "title":"If you like this project, you might like",
+        "projectPre":"Project"
+    },
+    "page404":{
+        "text":"This page wasn't found, but there's plenty more to explore on my portfolio!",
+        "exploreProjects":"Explore Projects"
+    }
+}

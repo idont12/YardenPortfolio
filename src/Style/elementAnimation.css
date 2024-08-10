@@ -1,0 +1,126 @@
+:root{
+    --delayAnimation:0.3s;
+    --directionAnimation:0.7s;
+    --animationName:"";
+}
+/*EnterAnimation*/
+.have-scroll-animation{
+    transition: all cubic-bezier(0.4, 0, 1, 1);
+    transition: var(--directionAnimation);
+    transition-delay: var(--delayAnimation);
+}
+
+.rtl .aniType-MoveRightToLeft, .ltr .aniType-MoveLeftToRight{
+    opacity: 0;
+    transform: translateX(50%);
+}
+
+.rtl .aniType-MoveRightToLeft.active-enter-animation, .ltr .aniType-MoveLeftToRight.active-enter-animation {
+    opacity: 1 ;
+    transform: translateX(0);
+}
+
+.rtl .aniType-MoveLeftToRight, .ltr .aniType-MoveRightToLeft{
+    opacity: 0;
+    transform: translateX(-50%);
+}
+
+.rtl .aniType-MoveLeftToRight.active-enter-animation,.ltr .aniType-MoveRightToLeft.active-enter-animation {
+    opacity: 1 ;
+    transform: translateX(0);
+}
+
+.aniType-MoveDownToUp{
+    opacity: 0;
+    transform: translateY(50%);
+}
+
+.aniType-MoveDownToUp.active-enter-animation {
+    opacity: 1 ;
+    transform: translateY(0);
+}
+
+.aniType-MoveUpToDown{
+    opacity: 0;
+    transform: translateY(-50%);
+}
+
+.aniType-MoveUpToDown.active-enter-animation {
+    opacity: 1 ;
+    transform: translateY(0);
+}
+
+
+.aniType-ScaleSmallToBig{
+    opacity: 0;
+    transform: scale(0);
+}
+
+.aniType-ScaleSmallToBig.active-enter-animation {
+    opacity: 1 ;
+    transform:scale(1);
+}
+
+.aniType-Blur{
+    filter: blur(10px) opacity(0);
+}
+
+.aniType-Blur.active-enter-animation {
+    filter: blur(0) opacity(1);
+}
+
+
+.aniType-Rotate90{
+    rotate: -90deg;
+    opacity: 0;
+}
+
+.aniType-Rotate90.active-enter-animation {
+    rotate: 0deg;
+    opacity: 1;
+}
+
+.aniType-skewX{
+    transform: skewX(-80deg);
+    opacity: 0;
+}
+
+.aniType-skewX.active-enter-animation {
+    transform: skewX(0deg);
+    opacity: 1;
+}
+
+/*allAnimation*/
+/*-AnimationType-*/
+.floatAnimation{
+    --animationName:floatUpDown;
+    animation-name: var(--animationName);
+    --directionAnimation: 1.8s;
+    animation-duration:var(--directionAnimation);
+    animation-timing-function: ease-in-out;
+}
+
+.animationPro_LoopInfinite{
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+@keyframes floatUpDown{
+    0%{
+        transform: translate(-0px,0px);
+    }
+    100%{
+        transform: translate(0px,-20px);
+    }
+}
+
+
+@keyframes floatUpDownV2{
+    0%{
+        transform: translate(0px,15px);
+        
+    }
+    100%{
+        transform: translate(-0px,-5px);
+    }
+}
