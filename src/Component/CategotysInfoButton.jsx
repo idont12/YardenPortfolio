@@ -14,7 +14,7 @@ const CategoryInfoButton = ({allCategories, keyName, newStyle, newClass}) => {
     const baseProject = `home.TopicToDisplay.${keyName}`;
     const linkSrc = `/category/?categories=${allCategories}`;
 
-    const publicImgBase = "./img/";
+    const publicImgBase = "https://idont12.github.io/YardenPortfolio/img/";
     const publicImgProject =`${publicImgBase}General/CategoryGroups/${keyName}.jpg`;
 
     useEffect(() => {
