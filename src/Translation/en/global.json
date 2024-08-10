@@ -9,7 +9,7 @@
     "home":{
         "title":"Hi, I’m <span class='purpleText titleLine'>Yarden</span>",
         "superShotDescription": "",
-        "description": "I love creating interactive, cool, and uniqe experiences 🤩<br/><br/>I hold a Bachelor's degree in Instructional Technologies and am constantly learning new things.<br/> If you’re looking for a curious, motivated person who loves to learn, you’ve found the right match.",
+        "description": "I love creating interactive, cool, and uniqe experiences 🤩<br/><br/>I hold a Bachelor's degree in Instructional Technologies.<br/>I am constantly enjoy learning new things.<br/> If you’re looking for a curious, motivated person who loves to learn, you’ve found the right match.",
         "exploreAllProjectButton":"View Projects",
         "Projects":"Recommendations",
         "projectByTopic": "What Do I Do?",
@@ -155,20 +155,20 @@
             "description": "An online game for both computers and phones where you play as a god. Your job is to help a character get a bus ticket by communicating with them only through lightning. <br/> Playtime around 10 minutes.",
             "role": "Programmer, Designer, Animator<br/>(Solo)",
             "duration": "October 2023<br/>(4 days)",
-            "framework": "Made for the 'No Word Jam' competition",
-            "projectGoal": "To prove to myself that I can create a short game in less than a week without using any words.",
+            "framework": "Made for the 'No Words Jam' competition",
+            "projectGoal": "To create a short game in less than a week without using any words.",
             "targetAudience": "This game is for anyone who loves video games and wants to play something light and fun.",
             "TheProgress": [
                 {
                     "title": "No Words Allowed",
-                    "problem": "The game was made for the 'No Word Jam,' where the main rule was to create a game that doesn't use any words to explain how to play or tell the story.",
+                    "problem": "The game was made for the 'No Words Jam,' where the main rule was to create a game that doesn't use any words to explain how to play or tell the story.",
                     "solution": "To tackle this, I started by brainstorming ideas with the simplest controls possible, making them versatile so I wouldn’t need to teach many mechanics. I remembered the point and click games I used to play as a kid and thought it would be cool to make a game where the click is always the same, but the effect changes based on where you click.",
                     "imgDescription": ["Animation of a cat bus running"]
                 },
                 {
                     "title": "Scope Creep Challenge",
-                    "problem": "The original plan included three stages where the player would do simple daily tasks (getting on the bus, buying groceries, and making an omelette). But as you can guess, that scope is a bit too big for a game made solo in less than a week...",
-                    "solution": "When I realized the scope was too large, I broke down the work I’d done so far into categories (main character design, backgrounds, NPC design, core functionality coding, etc.) to see the game's actual status and where I could cut corners. In the end, I decided to keep only the bus stage and made it longer by adding multiple ways (4, to be exact) to solve it, with the game getting harder each time.",
+                    "problem": "The original plan included three stages where the player would do simple daily tasks (getting on the bus, buying groceries, and making an omelette). But as you can guess, that scope is a bit too big for a game made solo in less than a week... I figured this out 2 days before the submission date.",
+                    "solution": "I broke down the work I’d done so far into categories (characters design, backgrounds, animation, core functionality coding, etc.) to see the game's actual status and where I could cut. In the end, I decided to keep only the first stage and expand on it.",
                     "imgDescription": []
                 },
                 {
@@ -184,7 +184,7 @@
         "MaccabiahOnTime": {
             "title": "Maccabiah On Time",
             "superShotDescription": "Educational Game",
-            "description": "An educational game split into two lessons. Each lesson has a group game and a class-wide final game. Throughout the game, players will talk to historical figures, solve puzzles, collect medals, and play mini-games while earning points and competing with their classmates. <span class='note'>This project is not yet finished, so it’s not available yet.</span>",
+            "description": "An educational game split into two lessons. Each lesson has a group game and a class-wide final game. Throughout the game, players will talk to historical figures, solve puzzles, collect medals, and play mini-games while earning points and competing with their classmates. <span class='note'>This project is still in progress, so it’s not available yet.</span>",
             "role": "Programmer, UX & UI Designer, and Animator <br>(Teamwork)",
             "duration": "March 2024<br/>(In progress)",
             "framework": "Final project<br>Bachelor's degree",
@@ -210,7 +210,7 @@
                     "imgDescription": ["Shot from the game's opening video"]
                 }
             ],
-            "presentProjectDescription": ["Teacher interface of the game", "Shot of the game room"],
+            "presentProjectDescription": ["Student interface for creating a group","Teacher interface"],
             "IframeText": ""
         },
         "Stratasys": {

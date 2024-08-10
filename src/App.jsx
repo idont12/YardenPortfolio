@@ -12,6 +12,7 @@ import BasicLayout from './Layout/BasicLayout';
 import Projects from './Pages/Project';
 import NotFoundPage from './Pages/NotFoundPage';
 import Category from './Pages/Category';
+
 // If Projects is not used, you can remove this import
 // import Projects from './Project';
 

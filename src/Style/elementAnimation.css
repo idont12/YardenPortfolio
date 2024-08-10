@@ -124,3 +124,31 @@
         transform: translate(-0px,-5px);
     }
 }
+
+.changeSizeSmallToBigAnimation{
+    --animationName:smallToBig;
+    animation-name: var(--animationName);
+    --directionAnimation: 0.7s;
+    animation-duration:var(--directionAnimation);
+    animation-timing-function: ease-in-out;
+    --delayAnimation:0s;
+    animation-delay: var(--delayAnimation);
+    opacity: 0; /* Start with opacity 0 */
+    animation-fill-mode: forwards; /* Ensures final state of animation is retained */
+}
+
+
+/* .changeSizeSmallToBigAnimation[style*="animation"] {
+    visibility: visible;
+} */
+
+@keyframes smallToBig{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}

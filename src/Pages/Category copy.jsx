@@ -5,7 +5,7 @@ import projectsData from '../data/Projects.json';
 import ProjectInfoButton from '../Component/ProjectInfoButton';
 import NotFoundPage from './NotFoundPage';
 
-const Category = () => {
+const CategoryOld = () => {
   const { t } = useTranslation('global');
   const location = useLocation();
   const navigate = useNavigate();
@@ -109,4 +109,4 @@ const Category = () => {
   );
 }
 
-export default Category;
+export default CategoryOld;

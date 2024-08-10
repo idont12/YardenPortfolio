@@ -1,7 +1,7 @@
 [
     {
         "GeneralName":"DanceItOut",
-        "Tags":["unity","html","css","c#","ux","ui","animation"],
+        "Tags":["unity","html","css","c#","ux","ui","animation","video_edit"],
         "SmallImg":"presentProjectImg_Video.jpg",
         "MainScreenExample":"MainScreen.jpg",
         "projectLink":"https://danceitout.telem-hit.net/Editor/",
@@ -45,7 +45,7 @@
     },
     {
         "GeneralName":"MaccabiahOnTime",
-        "Tags":["unity","ui","ux","animation","c#","html","css"],
+        "Tags":["unity","ui","ux","animation","c#","html","css","video_edit"],
         "SmallImg":"GameingRoom.jpg",
         "MainScreenExample":"MainScreen.jpg",
         "projectLink":"",
@@ -60,7 +60,7 @@
     },
     {
         "GeneralName":"TheWholeWorldIsOnStage",
-        "Tags":["ui","ux","html","css","js"],
+        "Tags":["ui","ux","html","css","js","video_edit"],
         "SmallImg":"MainScreen.jpg",
         "MainScreenExample":"MainScreen.jpg",
         "projectLink":"https://idont12.github.io/The_whole_world_is_on_stage-MiniMookNew/Pages/index.html",
