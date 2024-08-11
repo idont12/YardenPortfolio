@@ -43,7 +43,7 @@ const Projects = () => {
   const data = projectsData.find((project) => project.GeneralName == UrlName);
   const allTags = data.Tags;
 
-  const publicImgBase = "../img/";
+  const publicImgBase = "./img/";
   const publicImgProject = publicImgBase + "Projects/" + data.GeneralName + "/";
   const keyExists = i18n.exists("header.title");
 
@@ -60,7 +60,7 @@ const Projects = () => {
           <section className='projectMainScreen limitWidth noMarginBottom'>
             <div className='have-scroll-animation aniType-MoveUpToDown' style={{"--directionAnimation":"1s"}}>
               <h1 className='withSecondarytext relativeCon'>
-                <img src="../img/General/shapeTriangle.svg" className='backShape customPositionX animationPro_LoopInfinite floatAnimation' id="shapeProp1" alt="" style={{ '--customPosition': '-40px' }} />
+                <img src="./img/General/shapeTriangle.svg" className='backShape customPositionX animationPro_LoopInfinite floatAnimation' id="shapeProp1" alt="" style={{ '--customPosition': '-40px' }} />
                 <span className='titleLine' style={{ '--titleBackLineColor': data.customColor }}>
                   <Icon name={data.titleIconName} />&nbsp;
                   {t(`${baseProject}.title`)}
@@ -87,7 +87,7 @@ const Projects = () => {
               <img src={publicImgProject + data.MainScreenExample} alt=""></img>
             </div>
 
-            <img src="../img/General/shapeTriangle.svg" alt="" className='backShape customPositionX reverse  animationPro_LoopInfinite floatAnimation' id="shapeProp2" style={{ '--customPosition': '-40px', '--animationName':'floatUpDownV2' }}></img>
+            <img src="./img/General/shapeTriangle.svg" alt="" className='backShape customPositionX reverse  animationPro_LoopInfinite floatAnimation' id="shapeProp2" style={{ '--customPosition': '-40px', '--animationName':'floatUpDownV2' }}></img>
           </section>
 
           {/* section that conrain the role, framework and duration of the project */}
@@ -113,7 +113,7 @@ const Projects = () => {
 
         </div>
         {/* section that conrain the project goal and the target audience of the project */}
-        <section className='grid1_2Con screenHight limitWidth'>
+        <section className='grid1_2Con screenHight limitWidth noPaddingOnPhoneCon'>
           <div className='useCustomColorAsBackground flexCenterY' style={{ '--customColor': data.customColor }}>
             {/* <div className='fillTheBlank' style={{ '--customColor': data.customColor }} /> */}
             <div className='spacingCon'>
@@ -143,7 +143,7 @@ const Projects = () => {
               data.presentProject.map((img, index) => (
                 <div key={index} className={`customStructure_ceneterOffSlant_${index} ${data.presentProject.length==1 ? "centerXAbs":null}`}>
                   {index == 0 ?
-                  <img src="../img/General/shapeEmptyCircle.svg" class="backShape" style={{ 'width': '42%', 'right': '-25%', 'bottom': '20%', 'rotate': '25deg' }} alt="" />
+                  <img src="./img/General/shapeEmptyCircle.svg" class="backShape" style={{ 'width': '42%', 'right': '-25%', 'bottom': '20%', 'rotate': '25deg' }} alt="" />
                   : null}
                   {index % 2 === 0 ?
                   <span className='imgTextDisciption'>{t(`${baseProject}.presentProjectDescription.${index}`)}</span>

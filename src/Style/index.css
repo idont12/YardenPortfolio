@@ -813,7 +813,7 @@ button.dropDownButtonActive{
 
   .projectMainScreen {
     grid-template-columns: auto;
-    grid-template-rows: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
   }
 
 .grid1_2Con{
@@ -822,6 +822,19 @@ button.dropDownButtonActive{
 }
 
 @media only screen and (max-width: 600px) {
+/*welcomScreen*/
+.projectMainScreen h1{
+text-align: center;
+font-size: 8.5vw;
+}
+
+.projectMainScreen .button{
+margin-right: auto;
+margin-left: auto;
+display: block;
+width: fit-content;
+}
+
   .limitWidth{
     max-width: none;
   }
@@ -885,5 +898,9 @@ grid-template-rows: 1fr 1fr 1fr;
 
 .stickyButtomBanner h1.withSecondarytext {
   flex-direction: column;
+}
+
+.noPaddingOnPhoneCon{
+  padding: 0px;
 }
 }
