@@ -49,7 +49,7 @@ body, body *, * {
 }
 
 #root{
-
+  overflow: hidden;
 }
 
 h1{
@@ -157,14 +157,7 @@ margin: 0px 0.9rem;
   outline-offset: -3px;
 }
 
-.button:not(.linkHoverBaceNo):hover,
-a:not(.linkHoverBaceNo):hover,
-button:not(.linkHoverBaceNo):hover,
-.button:not(.linkHoverBaceNo):focus-visible,
-a:not(.linkHoverBaceNo):focus-visible,
-button:not(.linkHoverBaceNo):focus-visible  {
-  opacity: 0.5;
-}
+
 
 .buttonIcon{
   border-radius: 100px;
@@ -813,12 +806,26 @@ button.dropDownButtonActive{
 
   .projectMainScreen {
     grid-template-columns: auto;
+    padding: 0px;
+    margin: 2em 1em;
     /* grid-template-rows: 1fr 1fr; */
   }
 
 .grid1_2Con{
   grid-template-columns: auto;
 }
+}
+
+@media only screen and (min-width: 600px) {
+  .button:not(.linkHoverBaceNo):hover,
+  a:not(.linkHoverBaceNo):hover,
+  button:not(.linkHoverBaceNo):hover,
+  .button:not(.linkHoverBaceNo):focus-visible,
+  a:not(.linkHoverBaceNo):focus-visible,
+  button:not(.linkHoverBaceNo):focus-visible  {
+    opacity: 0.5;
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -840,6 +847,7 @@ width: fit-content;
   }
   .stickyButtomBanner{
     position: relative;
+    justify-content: center;
   }
 
 /*grid 3 option*/
@@ -866,7 +874,7 @@ grid-template-rows: 1fr 1fr 1fr;
     display: none;
 }
 .elementWidth40Per{
-  width: 95%;
+  width: calc(80vw - 0.8em);
 }
 
 .aspectRatio5_3Con{
