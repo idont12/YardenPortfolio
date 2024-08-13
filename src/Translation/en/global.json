@@ -9,8 +9,8 @@
     "home":{
         "title":"Hi, I’m <span class='purpleText titleLine'>Yarden</span>",
         "superShotDescription": "",
-        "description": "I love creating interactive, cool, and uniqe experiences 🤩<br/><br/>I hold a Bachelor's degree in Instructional Technologies.<br/>I am constantly enjoy learning new things.<br/> If you’re looking for a curious, motivated person who loves to learn, you’ve found the right match.",
-        "exploreAllProjectButton":"View Projects",
+        "description": "<span> I love creating cool, interactive, and diverse learning experiences 😎 </span> <p> Graduate with a degree in Instructional Design. <br/> Always ready to learn and try new things 📚🚀</p><p> Looking for a curious, motivated, and positive team player who loves challenges? <br/> If so, we could be a great match! ✨ </p>",
+        "exploreAllProjectButton":"My Projects",
         "Projects":"Recommendations",
         "projectByTopic": "What Do I Do?",
         "TopicToDisplay": {
@@ -96,7 +96,7 @@
             "duration": "November 2023<br/>(9 months)",
             "framework": "Year 2 Final Project<br/>Bachelor’s Degree",
             "projectGoal": "To create a fun learning experience with an easy-to-use interface for creating custom minigames.",
-            "targetAudience": "Elementary and middle school students with basic technological literacy, and teachers of various ages and tech levels.",
+            "targetAudience": "Elementary and middle school students with basic tech literacy. Teachers, instructors, and educators.",
             "TheProgress":[
                 {
                     "title":"What Are We Making?",
@@ -135,8 +135,8 @@
             "TheProgress": [
                 {
                     "title": "Working with AI",
-                    "problem": "Language models work by receiving written text and trying to continue it in the optimal way. Therefore, it’s difficult to predict how the model will provide feedback, especially since this content needs to be processed into a quiz where the format must be consistent and not vary between prompts.",
-                    "solution": "To overcome this, we researched various rules and methods for creating prompts, adjusted different parameters in the model call, and experimented with different formulations until we reached a balanced and stable result.",
+                    "problem": "Language models generate text with some randomness, making it hard to predict the output. Variations in writing style can cause issues if the format doesn't match the system's expectations.",
+                    "solution": "We conducted self-research on language models, explored structures and techniques for writing prompts, and worked with the API. This helped us refine prompts to find the right balance between stable, reliable results and creative content.",
                     "imgDescription":["Correct answer response"]
                 },
                 {
@@ -152,7 +152,7 @@
         "GoddaGo": {
             "title": "Godda Go",
             "superShotDescription": "Point and Click Game",
-            "description": "An online game for both computers and phones where you play as a god. Your job is to help a character get a bus ticket by communicating with them only through lightning. <br/> Playtime around 10 minutes.",
+            "description": "<p>Online game designed for both computer and mobile, where you take on a unique role—God, who can only communicate with humans through lightning.</p><p>Your mission? It sounds simple but is quite the challenge: Help the main character catch a bus on time to reach an important destination. <br/> Playtime around 10 minutes.</p>",
             "role": "Programmer, Designer, Animator<br/>(Solo)",
             "duration": "October 2023<br/>(4 days)",
             "framework": "Made for the 'No Words Jam' competition",
@@ -256,9 +256,9 @@
                     "imgDescription":["The team behind the project"]
                 },
                 {
-                    "title":"How Did We Build It?",
-                    "problem":"My main role on the team was building the MOOC on the Moodle platform. I wanted to use HTML, but I was the only one on the team comfortable with it, which made it harder for others to help me.",
-                    "solution":"At first, I tried building everything in HTML, but with limited time and the need for others to easily pitch in, we decided to switch to Genially. We still used HTML+JS for the interactive elements that were tricky to do on the platform.",
+                    "title":"Development?",
+                    "problem":"My goal was to develop the entire interface in HTML. However, since it was a team project and the timeline was tight, we explored alternatives.",
+                    "solution":"We chose to explore and use the Genially platform for easier implementation. To add uniqueness, we also incorporated HTML + JS components in the model environment.",
                     "imgDescription":[]
                 },
                 {
