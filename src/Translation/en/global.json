@@ -167,14 +167,8 @@
                 },
                 {
                     "title": "Scope Creep Challenge",
-                    "problem": "The original plan included three stages where the player would do simple daily tasks (getting on the bus, buying groceries, and making an omelette). But as you can guess, that scope is a bit too big for a game made solo in less than a week... I figured this out 2 days before the submission date.",
-                    "solution": "I broke down the work I’d done so far into categories (characters design, backgrounds, animation, core functionality coding, etc.) to see the game's actual status and where I could cut. In the end, I decided to keep only the first stage and expand on it.",
-                    "imgDescription": []
-                },
-                {
-                    "title": "The Long, Boring Way Back",
-                    "problem": "If you played the game, you might have noticed this, but when I did tests on the submission day, I saw that the part where the player has to walk back to the bus station was pretty boring and not fun.",
-                    "solution": "Unfortunately, I couldn’t fix this in time, but I did try a few things, like speeding up the character on the way back or removing stops at every screen, but those caused other problems and weird bugs. In the end, it's better to submit a finished project than nothing at all.",
+                    "problem": "The original plan for the game was pretty ambitious, with three stages and different missions and mechanics. But with a tight deadline and just two days left before submission, I realized it would be tough to fit everything in at the level I wanted.",
+                    "solution": "I broke down the work I’d done into categories (like backgrounds, animations, code, etc.) to see what was done and what could be cut. I decided to focus on the first stage I’d been working on and put all my effort into developing and upgrading it.",
                     "imgDescription": ["Finding the hidden character 'Bill' in the game"]
                 }
             ],

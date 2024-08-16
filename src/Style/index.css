@@ -399,10 +399,6 @@ footer h2 {
   font-size: 0.9rem;
 }
 
-.tag:hover{
-  background-color: var(--myBlueLight);
-}
-
 /*Project info button*/
 .projectInfoButton{
   text-decoration: none;
@@ -625,17 +621,10 @@ h1.withSecondarytext span:not(.titleLine){
   display: inline-block;
 }
 
-.dropdown-content>label span:hover, .dropdown-content>label span:focus, .dropdown-content>label input:focus-visible ~ span{
-  background: var(--myPurple);
-}
 
 .dropdown-content>label input:checked ~ span {
   background: var(--myGreen);
   color:var(--myBlack)
-}
-
-.dropdown-content>label input:checked ~ span:hover, .dropdown-content>label input:checked ~ span:focus, .dropdown-content>label input:focus-visible:checked ~ span{
-  background: var(--myGreenLight);
 }
 
 .dropdown-content>label input ~ span svg {
@@ -826,6 +815,18 @@ button.dropDownButtonActive{
     opacity: 0.5;
   }
 
+  .tag:hover{
+    background-color: var(--myBlueLight);
+  }
+
+  .dropdown-content>label span:hover, .dropdown-content>label span:focus, .dropdown-content>label input:focus-visible ~ span{
+    background: var(--myPurple);
+  }
+
+  .dropdown-content>label input:checked ~ span:hover, .dropdown-content>label input:checked ~ span:focus, .dropdown-content>label input:focus-visible:checked ~ span{
+    background: var(--myGreenLight);
+  }
+  
 }
 
 @media only screen and (max-width: 600px) {
