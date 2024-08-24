@@ -9,7 +9,7 @@ import TagCategory from '../Component/TagCategory';
 import NextProject from '../Component/NextProject.jsx';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faClock, faHammer, faLocationDot, faFlag, faChildren, faLightbulb, faWeightHanging, faPaw, faStarOfDavid, faBolt, faPeopleGroup, faChevronDown} from '@fortawesome/free-solid-svg-icons';
+import { faClock, faHammer, faLocationDot, faFlag, faChildren, faLightbulb, faWeightHanging, faPaw, faStarOfDavid, faBolt, faPeopleGroup, faChevronDown, faMugHot} from '@fortawesome/free-solid-svg-icons';
 import { faHandPeace } from '@fortawesome/free-regular-svg-icons';
 
 import start from '../Js/ElementAnimationOnScroll.js'
@@ -113,7 +113,7 @@ const Projects = () => {
 
         </div>
         {/* section that conrain the project goal and the target audience of the project */}
-        <section className='grid1_2Con screenHight limitWidth noPaddingOnPhoneCon'>
+        <section className='grid1_2Con screenHight limitWidth noPaddingOnPhoneCon noSectionStyle'>
           <div className='useCustomColorAsBackground flexCenterY' style={{ '--customColor': data.customColor }}>
             {/* <div className='fillTheBlank' style={{ '--customColor': data.customColor }} /> */}
             <div className='spacingCon'>
@@ -152,6 +152,19 @@ const Projects = () => {
                   {index % 2 === 1 ? <span className='imgTextDisciption'>{t(`${baseProject}.presentProjectDescription.${index}`)}</span> : null}
                 </div>
               ))}
+          </div>
+        </section>
+        
+        {/*This section will contain the Summeay part */}
+        <section className='spacingCon' style={{"backgroundColor":"navajowhite"}}>
+          <div className='limitWidth'>
+            <h2 className='noMarginTop'>
+            <FontAwesomeIcon icon={faMugHot} />&nbsp;
+            {t(`projectPage.Summery`)}
+            </h2>
+            <p className='noMarginBottom'>
+            {HtmlParser(t(`${baseProject}.Summery`))}
+            </p>
           </div>
         </section>
 

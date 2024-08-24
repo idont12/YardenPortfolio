@@ -34,7 +34,8 @@
         "projectGoal_Title": "Project Goal",
         "targetAudience_Title": "Target Audience",
         "challenges_Title": "Challenges",
-        "solutions_Title": "Solutions"
+        "solutions_Title": "Solutions",
+        "Summery":"Bottom line, what did I learn?"
     },
     "category":{
         "html": {
@@ -121,7 +122,8 @@
                 "Screenshot from the game's intro video",
                 "Custom question creation screen"  
             ],
-            "IframeText":""
+            "IframeText":"",
+            "Summery":"I focused on the UI/UX design, coding, and creating the animations.<br/>The key things I learned during this project were how to work as a team, prioritize tasks, and find design solutions based on user research."
         },
         "DogyQuiz":{
            "title": "Dogy Quiz",
@@ -147,7 +149,8 @@
                 }
             ],
             "presentProjectDescription": ["Responsive game summary screen"],
-            "IframeText": "Demo Video"
+            "IframeText": "Demo Video",
+             "Summery":" I focused on UX design, writing prompts, building the website, and handling responsiveness.<br/>The key things I learned during this project were communicating with designers, creating responsive designs, and dealing with edge cases on the site."
         },
         "GoddaGo": {
             "title": "Godda Go",
@@ -173,7 +176,8 @@
                 }
             ],
             "presentProjectDescription": ["A stage from the game", "The final stage - breaking a door with lightning"],
-            "IframeText": ""
+            "IframeText": "",
+            "Summery":"The key things I learned during the project were how to navigate external limitations, create animations quickly, and adapt to changes on the fly."
         },
         "MaccabiahOnTime": {
             "title": "Maccabiah On Time",
@@ -205,7 +209,8 @@
                 }
             ],
             "presentProjectDescription": ["Student interface for creating a group","Teacher interface"],
-            "IframeText": ""
+            "IframeText": "",
+             "Summery":"I focused on UX & UI design, server communication, Unity development, and animation.<br/>The key things I learned during the project were handling edge cases, finding solutions to user-testing issues, and prioritizing tasks effectively."
         },
         "Stratasys": {
         "title": "Stratasys Portal",
@@ -231,7 +236,8 @@
             }
         ],
         "presentProjectDescription": ["Searching for a template in the portal"],
-        "IframeText": ""
+        "IframeText": "",
+        "Summery":"I focused on developing and designing the product.<br/>The key things I learned during the project were working with a real client, adapting to client requirements, and presenting the final product."
         },
         "TheWholeWorldIsOnStage":{
             "title":"The Whole World Is a Stage",
@@ -263,7 +269,8 @@
                 }
             ],
             "presentProjectDescription":["Sample screen from the project","Topic outline for the first part"],
-             "IframeText":""
+             "IframeText":"",
+              "Summery":"I focused on video production and embed the product in Moodle.<br/>The key things I learned during the project were working within a large team, managing work under tight deadlines, and finding effective ways to express myself in a collaborative environment."
         },
         "ItsLogicalToSucceed":{
             "title":"It's Logical to Succeed",
@@ -282,8 +289,9 @@
                     "imgDescription":["Drag and drop interaction"]
                 }
             ],
-            "presentProjectDescription":["Screen presents different operators","Opening screen with an explanation of the storyline"],
-             "IframeText":""
+            "presentProjectDescription":["Screen presents different operators","Opening screen with an explanation of the Storyline"],
+             "IframeText":"",
+             "Summery":" I focused on UX & UI design and creating the product in Storyline.<br/>The key things I learned during the project were working with an instructional designer and mastering Storyline."
         },
         "Temp":{
             "title":"",
@@ -303,7 +311,8 @@
                 }
             ],
             "presentProjectDescription":[""],
-             "IframeText":""
+             "IframeText":"",
+             "Summery":""
         }
     },
     "tags":{

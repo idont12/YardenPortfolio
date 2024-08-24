@@ -45,7 +45,7 @@ body, body *, * {
   font-weight: 400;
   font-style: normal;
   direction: rtl;
-  line-height: 1.7rem;
+  line-height: 1.3rem;
 }
 
 #root{
@@ -72,12 +72,16 @@ h2{
   margin-bottom: 0.3em;
 }
 
+h2, p, span:not(.imgTextDisciption){
+   line-height: 2rem;
+}
+
 img{
   width: 100%;
   user-select: none;
 }
 
-section{
+section:not(.noSectionStyle){
   z-index: 0;
   margin-bottom: 1.5rem !important;
 }
@@ -256,9 +260,18 @@ footer h2 {
 }
 
 /*Containers*/
+
+.noMarginTop{
+  margin-top: 0px;
+}
+
+.noMarginBottom{
+  margin-bottom: 0px;
+}
+
 .spacingCon{
   padding: 1em;
-  width: 100%;
+  max-width: 100%;
 }
 
 .spacing2Con{
@@ -359,6 +372,7 @@ footer h2 {
 .topSpace{
   margin-top: 2.5em;
 }
+
 .topSpaceNormal{
   margin-top: 1em;
 }
@@ -462,6 +476,10 @@ footer h2 {
 }
 .projectInfoButton:hover .backImg, .projectInfoButton:focus .backImg{
   transform: scale(1.1);
+}
+
+.info span{
+  line-height: 1.5rem;
 }
 
 /*The project page*/
@@ -778,6 +796,23 @@ button.dropDownButtonActive{
   display: block;
   font-size: 2rem;
 }
+
+/*border continer for summery -- not use!!!!!!!!!!!!!!!*/
+.borderCon{
+  border: 3px solid var(--myBlack);
+  border-radius: 0.8em;
+  background: var(--myWhite);
+  padding: 1em;
+}
+
+.borderCon p{
+  margin-bottom: 0px;
+}
+
+.borderCon h2{
+  margin: 0;
+}
+
 
 @media only screen and (max-width: 920px) {
   .limitWidth{
