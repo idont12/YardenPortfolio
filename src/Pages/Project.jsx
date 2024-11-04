@@ -9,7 +9,7 @@ import TagCategory from '../Component/TagCategory';
 import NextProject from '../Component/NextProject.jsx';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faClock, faHammer, faLocationDot, faFlag, faChildren, faLightbulb, faWeightHanging, faPaw, faStarOfDavid, faBolt, faPeopleGroup, faChevronDown, faMugHot} from '@fortawesome/free-solid-svg-icons';
+import { faClock, faHammer, faLocationDot, faFlag, faChildren, faLightbulb, faWeightHanging, faPaw, faStarOfDavid, faBolt, faPeopleGroup, faChevronDown, faMugHot, faAtom} from '@fortawesome/free-solid-svg-icons';
 import { faHandPeace } from '@fortawesome/free-regular-svg-icons';
 
 import start from '../Js/ElementAnimationOnScroll.js'
@@ -26,7 +26,8 @@ const iconMapping = {
   faPaw,
   faStarOfDavid,
   faBolt,
-  faPeopleGroup
+  faPeopleGroup,
+  faAtom
 };
 
 const Icon = ({ name }) => {

@@ -48,9 +48,10 @@ body, body *, * {
   line-height: 1.3rem;
 }
 
-#root{
-  overflow: hidden;
+body strong {
+  font-weight: bold;
 }
+
 
 h1{
   font-size: 2.5rem;
@@ -91,15 +92,22 @@ iframe{
   border-radius: 0.3em;
 }
 
+#root{
+  overflow: hidden;
+}
+
+/*Improtent classes*/
+
+/*-fource page direction - trl*/
 .rtl,.rtl * {
   direction: rtl;
 }
-
 
 .rtl{
   text-align: right;
 }
 
+/*-fource page direction - ltr*/
 .ltr,.ltr * {
   direction: ltr;
 }

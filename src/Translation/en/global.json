@@ -182,7 +182,7 @@
         "MaccabiahOnTime": {
             "title": "Maccabiah On Time",
             "superShotDescription": "Educational Game",
-            "description": "An educational game split into two lessons. Each lesson has a group game and a class-wide final game. Throughout the game, players will talk to historical figures, solve puzzles, collect medals, and play mini-games while earning points and competing with their classmates. <span class='note'>This project is still in progress, so it’s not available yet.</span>",
+            "description": "An educational game divided into two lessons, each containing a group activity and a class-wide final game. Throughout the game, players interact with historical figures, solve puzzles, collect medals, and play mini-games while earning points and competing with classmates. <br><strong>This project was awarded as an outstanding project.</strong>",
             "role": "Programmer, UX & UI Designer, and Animator <br>(Teamwork)",
             "duration": "March 2024<br/>(In progress)",
             "framework": "Final project<br>Bachelor's degree",
@@ -293,6 +293,27 @@
              "IframeText":"",
              "Summery":" I focused on UX & UI design and creating the product in Storyline.<br/>The key things I learned during the project were working with an instructional designer and mastering Storyline."
         },
+        "Hex-Shade": {
+            "title": "Hex-Shade",
+            "superShotDescription": "Video Game",
+            "description": "<p> A short, colorful platformer game with 12 unique levels where you jump, swim, and teleport through portals.<br/>Playtime: around 5 minutes </p>",
+            "role": "Programmer, designer, animator, and developer<br/>(Solo project)",
+            "duration": "October 2024<br/>(3 days)",
+            "framework": "Created for fun",
+            "projectGoal": "To improve my shader creation skills in Unity.",
+            "targetAudience": "The game is for anyone who enjoys video games and wants a quick, light experience.",
+            "TheProgress": [
+                {
+                    "title": "Level Design",
+                    "problem": "The main goal during level design was to make sure anyone could play and enjoy the game without special knowledge or skills.",
+                    "solution": "Before starting each level, I decided which game mechanic to introduce, ensuring each level wouldn’t overwhelm the player.",
+                    "imgDescription": ["A level from the game"]
+                }
+            ],
+            "presentProjectDescription": ["A level from the game", "The final level: breaking a door with lightning"],
+            "IframeText": "",
+            "Summery": "I learned that cool results can be achieved without overworking myself."
+        },  
         "Temp":{
             "title":"",
             "superShotDescription":"",
