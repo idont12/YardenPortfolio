@@ -1,8 +1,13 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![HTML Badge](https://img.shields.io/badge/HTML-web-2ea44f?logo=html5&logoColor=white) ![CSS - style](https://img.shields.io/badge/CSS-style-ffe600?logo=css&logoColor=white) ![React - code](https://img.shields.io/badge/React-code-orange?logo=react&logoColor=white) ![Figma - Design](https://img.shields.io/badge/Figma-Design-ff0099?logo=figma&logoColor=white)
 
-Currently, two official plugins are available:
+This is a dynamic and responsive website showcasing a collection of different projects I’ve worked on. The goal is to present these projects in a user-friendly way. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [Try it out here!](https://idont12.github.io/YardenPortfolio)
+
+## Features
+
+- Switch between English and Hebrew
+- Filter projects by category
+- Dynamic content pages, making it easy to add new projects
